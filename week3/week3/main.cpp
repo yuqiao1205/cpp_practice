@@ -9,13 +9,12 @@
 
 using namespace std;
 
-
-
-
 int main(int argc, const char * argv[]) {
+    
     cout << "Enter a number: ";
     int number;
     cin >> number;
+    
     for(int i = 1; i <= number; i++){
         if (i % 15 == 0){
             cout << "FizzBuzz" << endl;
@@ -27,5 +26,6 @@ int main(int argc, const char * argv[]) {
             cout << i << endl;
         }
     }
+    
     return 0;
 }
