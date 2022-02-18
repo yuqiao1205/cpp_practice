@@ -31,7 +31,6 @@ int LIS(int a[],int n)
     return max;
 }
 
-
 int main(){
     
     int a[8];
